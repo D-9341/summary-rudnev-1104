@@ -75,6 +75,7 @@ a {
 }
 
 .main {
+    display: flex;
     column-count: 3;
     height: 1640px;
     width: 1180px;
@@ -83,7 +84,7 @@ a {
 .other {
     font-family: Montserrat;
     font-size: 1em;
-    background-color: #2f3136;
+    background: linear-gradient(45deg, red 50%, orange 50%);
     border-radius: 24px;
     height: 580px;
     width: 530px;
