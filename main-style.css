@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Roboto;
+    src: local("./fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Robot Mono";
+    src: local("./fonts/RobotoMono.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: local("./fonts/Monsterrat.ttf");
+}
+
+@font-face {
+    font-family: SFMono;
+    src: local("./fonts/SFMono.ttf");
+}
+
+body {
+    margin: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+header {
+    font-family: Roboto;
+    font-size: 0.8em;
+}
+
+.mlogo {
+    height: 50px;
+    width: 50px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.right {
+    text-align: right;
+}
+
+h1, h2 {
+    font-family: Montserrat;
+    text-align: left;
+    padding: 6px 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: white;
+}
+
+.main {
+    column-count: 3;
+    height: 1640px;
+    width: 1180px;
+}
+
+.other {
+    font-family: Montserrat;
+    font-size: 1em;
+    background-color: #2f3136;
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+}
+
+.other:hover {
+    box-shadow: 10px 5px 5px black;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: #ff8000;
+}
+
+.green {
+    background-color: green;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+}
