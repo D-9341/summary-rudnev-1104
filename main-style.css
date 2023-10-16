@@ -1,21 +1,21 @@
 @font-face {
-    font-family: Roboto;
-    src: local("./fonts/Roboto-Black.ttf");
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Black.ttf");
 }
 
 @font-face {
     font-family: "Robot Mono";
-    src: local("./fonts/RobotoMono.ttf");
+    src: url("./fonts/RobotoMono.ttf");
 }
 
 @font-face {
-    font-family: Montserrat;
-    src: local("./fonts/Monsterrat.ttf");
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat.ttf");
 }
 
 @font-face {
-    font-family: SFMono;
-    src: local("./fonts/SFMono.ttf");
+    font-family: "SFMono";
+    src: url("./fonts/SFMono.ttf");
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 header {
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 0.8em;
 }
 
@@ -46,7 +46,7 @@ header {
 }
 
 h1, h2 {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     text-align: left;
     padding: 6px 10px;
 }
@@ -77,14 +77,15 @@ a {
 .main {
     display: flex;
     column-count: 3;
-    height: 1640px;
-    width: 1180px;
+    column-gap: 50px;
+    height: 1180px;
+    width: 1640px;
 }
 
 .other {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 1em;
-    background: linear-gradient(45deg, red 50%, orange 50%);
+    background: linear-gradient(300deg, red 50%, orange 50%);
     border-radius: 24px;
     height: 580px;
     width: 530px;

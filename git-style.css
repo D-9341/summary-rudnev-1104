@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "SFMono";
+    src: url("./fonts/SFMono.ttf");
+}
+
+.mlogo {
+    height: 50px;
+    width: 50px;
+}
+
+body {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1.7;
+}
+
+header {
+    font-family: "Roboto";
+    font-size: 0.8em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+div {
+    margin: none;
+    margin-bottom: 16px;
+}
+
+.weigth {
+    font-weight: bold;
+    font-family: "SFMono";
+}
+
+.code {
+    background-color: #000;
+    padding: 10px;
+    margin: none;
+    margin-bottom: 10px;
+    font-family: "SFMono";
+    font-size: 0.85em;
+}
+
+.orng {
+    color: #ff8000;
+}
+
+.cyan {
+    color: #009999;
+}
+
+.comm {
+    color: limegreen;
+}
+
+.right {
+    text-align: right;
+}
